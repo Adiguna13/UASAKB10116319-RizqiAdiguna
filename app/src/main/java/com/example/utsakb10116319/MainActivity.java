@@ -8,11 +8,19 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.utsakb10116319.presenter.pagerAdapter;
 import com.example.utsakb10116319.view.friendsFragment;
 import com.example.utsakb10116319.view.kontakFragment;
 import com.example.utsakb10116319.view.profilFragment;
+
+import java.util.ArrayList;
 
 
 
@@ -24,8 +32,12 @@ import com.example.utsakb10116319.view.profilFragment;
     Kelas               : IF-7
  */
 
+
+
 public class MainActivity extends AppCompatActivity implements profilFragment.OnFragmentInteractionListener, kontakFragment.OnFragmentInteractionListener, friendsFragment.OnFragmentInteractionListener {
     public static final String EXTRA_MESSAGE="com.example.utsakb10116319.EXTRA_MESSAGE";
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements profilFragment.On
         );
 
 
+
     }
 
 
@@ -90,6 +103,5 @@ public class MainActivity extends AppCompatActivity implements profilFragment.On
         bukaEmail.setData(Uri.parse(url));
         startActivity(bukaEmail);
     }
-
 
 }
