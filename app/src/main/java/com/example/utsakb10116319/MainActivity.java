@@ -9,6 +9,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.utsakb10116319.presenter.pagerAdapter;
+import com.example.utsakb10116319.view.friendsFragment;
+import com.example.utsakb10116319.view.kontakFragment;
+import com.example.utsakb10116319.view.profilFragment;
+
 
 
 

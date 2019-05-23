@@ -1,8 +1,19 @@
-package com.example.utsakb10116319;
+package com.example.utsakb10116319.presenter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.example.utsakb10116319.view.friendsFragment;
+import com.example.utsakb10116319.view.kontakFragment;
+import com.example.utsakb10116319.view.profilFragment;
+
+    /*
+    Tanggal Pengerjaan  : Sabtu 20 Mei 2019
+    NIM                 : 10116319
+    Nama                : Rizqi Adiguna
+    Kelas               : IF-7
+ */
 
 public class pagerAdapter extends FragmentStatePagerAdapter {
 

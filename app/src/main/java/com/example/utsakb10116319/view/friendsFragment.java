@@ -1,4 +1,4 @@
-package com.example.utsakb10116319;
+package com.example.utsakb10116319.view;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,16 +8,27 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.utsakb10116319.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link profilFragment.OnFragmentInteractionListener} interface
+ * {@link friendsFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link profilFragment#newInstance} factory method to
+ * Use the {@link friendsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class profilFragment extends Fragment {
+
+    /*
+    Tanggal Pengerjaan  : Sabtu 20 Mei 2019
+    NIM                 : 10116319
+    Nama                : Rizqi Adiguna
+    Kelas               : IF-7
+ */
+
+
+public class friendsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +40,7 @@ public class profilFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public profilFragment() {
+    public friendsFragment() {
         // Required empty public constructor
     }
 
@@ -39,11 +50,11 @@ public class profilFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment profilFragment.
+     * @return A new instance of fragment friendsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static profilFragment newInstance(String param1, String param2) {
-        profilFragment fragment = new profilFragment();
+    public static friendsFragment newInstance(String param1, String param2) {
+        friendsFragment fragment = new friendsFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,7 +75,7 @@ public class profilFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profil, container, false);
+        return inflater.inflate(R.layout.fragment_friends, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

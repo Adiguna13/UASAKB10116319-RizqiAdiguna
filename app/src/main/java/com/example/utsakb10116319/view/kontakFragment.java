@@ -1,4 +1,4 @@
-package com.example.utsakb10116319;
+package com.example.utsakb10116319.view;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,16 +8,27 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.utsakb10116319.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link friendsFragment.OnFragmentInteractionListener} interface
+ * {@link kontakFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link friendsFragment#newInstance} factory method to
+ * Use the {@link kontakFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class friendsFragment extends Fragment {
+
+/*
+    Tanggal Pengerjaan  : Sabtu 20 Mei 2019
+    NIM                 : 10116319
+    Nama                : Rizqi Adiguna
+    Kelas               : IF-7
+ */
+
+public class kontakFragment extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,9 +40,10 @@ public class friendsFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public friendsFragment() {
+    public kontakFragment() {
         // Required empty public constructor
     }
+
 
     /**
      * Use this factory method to create a new instance of
@@ -39,11 +51,11 @@ public class friendsFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment friendsFragment.
+     * @return A new instance of fragment kontakFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static friendsFragment newInstance(String param1, String param2) {
-        friendsFragment fragment = new friendsFragment();
+    public static kontakFragment newInstance(String param1, String param2) {
+        kontakFragment fragment = new kontakFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,7 +76,7 @@ public class friendsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_friends, container, false);
+        return inflater.inflate(R.layout.fragment_kontak, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -84,6 +96,9 @@ public class friendsFragment extends Fragment {
                     + " must implement OnFragmentInteractionListener");
         }
     }
+
+
+
 
     @Override
     public void onDetach() {

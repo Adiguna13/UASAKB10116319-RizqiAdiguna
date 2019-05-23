@@ -1,4 +1,4 @@
-package com.example.utsakb10116319;
+package com.example.utsakb10116319.view;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,17 +8,26 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.utsakb10116319.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link kontakFragment.OnFragmentInteractionListener} interface
+ * {@link profilFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link kontakFragment#newInstance} factory method to
+ * Use the {@link profilFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class kontakFragment extends Fragment {
 
+/*
+    Tanggal Pengerjaan  : Sabtu 20 Mei 2019
+    NIM                 : 10116319
+    Nama                : Rizqi Adiguna
+    Kelas               : IF-7
+ */
+
+public class profilFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,10 +39,9 @@ public class kontakFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public kontakFragment() {
+    public profilFragment() {
         // Required empty public constructor
     }
-
 
     /**
      * Use this factory method to create a new instance of
@@ -41,11 +49,11 @@ public class kontakFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment kontakFragment.
+     * @return A new instance of fragment profilFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static kontakFragment newInstance(String param1, String param2) {
-        kontakFragment fragment = new kontakFragment();
+    public static profilFragment newInstance(String param1, String param2) {
+        profilFragment fragment = new profilFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -66,7 +74,7 @@ public class kontakFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_kontak, container, false);
+        return inflater.inflate(R.layout.fragment_profil, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -86,9 +94,6 @@ public class kontakFragment extends Fragment {
                     + " must implement OnFragmentInteractionListener");
         }
     }
-
-
-
 
     @Override
     public void onDetach() {
