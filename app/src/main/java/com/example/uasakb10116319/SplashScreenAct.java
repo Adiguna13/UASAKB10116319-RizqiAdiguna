@@ -1,4 +1,4 @@
-package com.example.utsakb10116319;
+package com.example.uasakb10116319;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -29,7 +29,7 @@ public class SplashScreenAct extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                 finish();
             }
         }, 3000L);

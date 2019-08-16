@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.utsakb10116319">
+    package="com.example.uasakb10116319">
 
     <application
         android:allowBackup="true"
@@ -9,19 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
 
-            android:name=".SplashScreenAct"
+        <activity
+            android:name="com.example.uasakb10116319.SplashScreenAct"
             android:label="@string/app_name"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER"/>
-        </intent-filter>
-    </activity>
-        <activity android:name=".MainActivity"></activity>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.uasakb10116319.LoginActivity" />
+        <activity android:name="com.example.uasakb10116319.RegisterActivity"></activity>
+        <activity android:name="com.example.uasakb10116319.MainActivity" />
     </application>
 
 </manifest>

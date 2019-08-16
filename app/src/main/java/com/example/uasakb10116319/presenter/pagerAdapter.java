@@ -1,12 +1,12 @@
-package com.example.utsakb10116319.presenter;
+package com.example.uasakb10116319.presenter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.utsakb10116319.view.friendsFragment;
-import com.example.utsakb10116319.view.kontakFragment;
-import com.example.utsakb10116319.view.profilFragment;
+import com.example.uasakb10116319.view.friendsFragment;
+import com.example.uasakb10116319.view.kontakFragment;
+import com.example.uasakb10116319.view.profilFragment;
 
     /*
     Tanggal Pengerjaan  : Sabtu 20 Mei 2019

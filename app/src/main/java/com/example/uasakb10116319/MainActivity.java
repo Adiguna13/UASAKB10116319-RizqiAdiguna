@@ -1,4 +1,4 @@
-package com.example.utsakb10116319;
+package com.example.uasakb10116319;
 
 
 import android.content.Intent;
@@ -8,19 +8,14 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.Toast;
 
-import com.example.utsakb10116319.presenter.pagerAdapter;
-import com.example.utsakb10116319.view.friendsFragment;
-import com.example.utsakb10116319.view.kontakFragment;
-import com.example.utsakb10116319.view.profilFragment;
 
-import java.util.ArrayList;
+import com.example.uasakb10116319.presenter.pagerAdapter;
+import com.example.uasakb10116319.view.friendsFragment;
+import com.example.uasakb10116319.view.kontakFragment;
+import com.example.uasakb10116319.view.profilFragment;
+
+
 
 
 
@@ -43,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements profilFragment.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("Profil"));
@@ -102,6 +99,12 @@ public class MainActivity extends AppCompatActivity implements profilFragment.On
         Intent bukaEmail = new Intent(Intent.ACTION_VIEW);
         bukaEmail.setData(Uri.parse(url));
         startActivity(bukaEmail);
+    }
+
+    public void logout (View view){
+        Preferences.clearLoggedInUser(getBaseContext());
+        startActivity(new Intent(getBaseContext(), LoginActivity.class));
+        finish();
     }
 
 }

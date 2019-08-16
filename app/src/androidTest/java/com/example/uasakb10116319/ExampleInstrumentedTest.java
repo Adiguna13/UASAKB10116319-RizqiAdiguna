@@ -1,4 +1,4 @@
-package com.example.utsakb10116319;
+package com.example.uasakb10116319;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
