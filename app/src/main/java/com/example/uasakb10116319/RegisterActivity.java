@@ -9,6 +9,13 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/*
+    Tanggal Pengerjaan  : Sabtu 14 Agustus 2019
+    NIM                 : 10116319
+    Nama                : Rizqi Adiguna
+    Kelas               : IF-7
+ */
+
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText mViewUser, mViewPassword, mViewRepassword;

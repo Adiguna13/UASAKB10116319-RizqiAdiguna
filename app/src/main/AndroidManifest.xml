@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".LoadActivity"></activity>
+        <activity android:name=".TambahActivity" />
         <activity
-            android:name="com.example.uasakb10116319.SplashScreenAct"
+            android:name=".SplashScreenAct"
             android:label="@string/app_name"
             android:noHistory="true"
             android:screenOrientation="portrait"
@@ -22,9 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.uasakb10116319.LoginActivity" />
-        <activity android:name="com.example.uasakb10116319.RegisterActivity"></activity>
-        <activity android:name="com.example.uasakb10116319.MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

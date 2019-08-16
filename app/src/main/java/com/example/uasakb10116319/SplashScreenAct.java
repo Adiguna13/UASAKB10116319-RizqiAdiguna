@@ -8,7 +8,7 @@ import android.view.Window;
 import android.widget.TextView;
 
 /*
-    Tanggal Pengerjaan  : Sabtu 18 Mei 2019
+    Tanggal Pengerjaan  : Sabtu 14 Agustus 2019
     NIM                 : 10116319
     Nama                : Rizqi Adiguna
     Kelas               : IF-7

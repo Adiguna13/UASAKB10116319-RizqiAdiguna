@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.uasakb10116319.LoginActivity;
 import com.example.uasakb10116319.Preferences;
@@ -24,7 +25,7 @@ import com.example.uasakb10116319.R;
  */
 
 /*
-    Tanggal Pengerjaan  : Sabtu 20 Mei 2019
+    Tanggal Pengerjaan  : Sabtu 14 Agustus 2019
     NIM                 : 10116319
     Nama                : Rizqi Adiguna
     Kelas               : IF-7
@@ -35,6 +36,7 @@ public class profilFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
 
     // TODO: Rename and change types of parameters
     private String mParam1;

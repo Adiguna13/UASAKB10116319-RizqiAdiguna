@@ -4,6 +4,13 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
+/*
+    Tanggal Pengerjaan  : Sabtu 14 Agustus 2019
+    NIM                 : 10116319
+    Nama                : Rizqi Adiguna
+    Kelas               : IF-7
+ */
+
 public class Preferences {
     static final String KEY_USER_TEREGISTER = "user", KEY_PASS_TEREGISTER = "pass";
     static final String KEY_USERNAME_SEDANG_LOGIN = "Username_logged_in";
